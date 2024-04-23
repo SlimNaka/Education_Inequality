@@ -34,6 +34,27 @@ The data set ccd_sch_029_1617_w_1a_11212017.csv is too large for Github and can 
 
 https://drive.usercontent.google.com/u/0/uc?id=1HvW2w-o2XZzCm4KTvnb1Bb3BvoAa14BP&export=download.
 
+## Data prep: Sean Nakagomi Education Inequality Data Preparation
+I converted the "NCESSCH" column in the "school_info" df to an integer to match up the type with "ed_gap".
+
+I got rid of unusable columns and renamed the columns kept for both the "ed_gap" and "school_info" df's to lower_case, snake_case, and less complicated names.
+
+I got rid of some outlier ACT scores and made some pair-plots to visualize the data.
+
+I joined the "ed_gap" and "school_info" df's via the ID.
+
+I got rid another useless column: "year" and dumped data not related to high school for "school_level."
+
+I looked for and got rid of percent-values outside of [0,1] as well as duplicates.
+
+I identified missing values before splitting up the Training and Testing datasets.
+
+I reclassified the school ID as a string so I could normalize numeric-valued columns and then randomly split the data 80-20.
+
+Lastly, I imputed values to the NaNs in the Training dataset via IterativeImputer.
+
+Clean data: X_train.csv   &   X_test.csv
+
 ## Licence:
 MIT License
 
