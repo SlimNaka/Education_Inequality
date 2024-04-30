@@ -78,6 +78,8 @@ I saved and temporarily removed the "id" column from both sets.
 
 Normalized and used IterativeImputeron the numeric features, fit_transforming the train set and transforming the test set, saving them as a different df to recall later.
 
+Saved the normalized mean and std as two dataframes: mean_df and std_df for later.
+
 Overwrote the normalized and imputed values, as well as readded the ID's from earlier, into their respective train and test sets.
 
 Lastly, I added the target values to their respective train and test sets.
