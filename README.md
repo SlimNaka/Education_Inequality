@@ -76,7 +76,7 @@ Split the data 80-20 into train and test sets, where y is the target and the oth
 
 I saved and temporarily removed the "id" column from both sets.
 
-Normalized and used IterativeImputer on the numeric features, saving them as a different df to recall later.
+Normalized and used IterativeImputeron the numeric features, fit_transforming the train set and transforming the test set, saving them as a different df to recall later.
 
 Overwrote the normalized and imputed values, as well as readded the ID's from earlier, into their respective train and test sets.
 
