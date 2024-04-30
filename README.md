@@ -40,7 +40,7 @@ The Census data is from the US Census Bureau's table S1601. This data set consis
 
 The .csv data set is too large for Github but was saved to and accessed via personal Google drive.
 
-## Data prep: Sean_Nakagomi_Education_Inequality_Data_Preparation_2.ipynb
+## Data prep: Sean_Nakagomi_Education_Inequality_Data_Preparation.ipynb
 NOTE: Since the Census data is an additional part of the assignment, I started to manipulate the Census data later on. 
 
 I converted the "NCESSCH" column in the "school_info" df to an integer to match up the type with "ed_gap".
