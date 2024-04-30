@@ -84,7 +84,7 @@ Lastly, I added the target values to their respective train and test sets.
 
 Did a last info-check on both sets and saved the csv files.
 
-Clean data: X_train.csv   &   X_test.csv
+Clean data: X_train.csv   &   X_test.csv (as well as mean_df & std_df)
 
 ## Licence:
 MIT License
