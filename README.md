@@ -104,6 +104,10 @@ I then refit the linear regression model to the multilingualism feature by itsel
 
 Due to how terribly the general area did by itself, I also combined the Train and Test sets and divided them all by the normalized value associated with the first ZIP digit and looked at the mean and standard deviation for each of the 10 regions.
 
+## Communication: Communicate Results.pptx & Project 2 Communicate Results.mp4
+
+Slides and video of presenting project and results.
+
 ## Licence:
 MIT License
 
