@@ -1,5 +1,4 @@
-# Education Inequality, Location, and Income
-
+# Education Inequality: Socioeconomics, Language, and Location
 ## Authors:
 Sean Nakagomi, instructed by Dr. Galen Egan
 
