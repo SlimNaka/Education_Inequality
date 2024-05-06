@@ -86,6 +86,24 @@ Did a last info-check on both sets and saved the csv files.
 
 Clean data: X_train.csv   &   X_test.csv
 
+## Data analysis: Sean_Nakagomi_Education_Analysis.ipynb
+
+Converted the ZIP codes to their respective first digit and normalized them in both the train and test sets, with respect to the train set.
+
+Swept through every single (2^7 = 128) combinations of features and fit a linear regression model to each combination to get their R-Squared and Root Mean Squared Error values, saving them to a dictionary.
+
+Grabbed the highest R-Squared value and the lowest Root Mean Squared Error value.
+
+Defined two functions that grabs the combination from the dictionary based off either the R-Squared or the Root Mean Squared Error value, and used it to identify the best combination.
+
+I then refit the linear regression model to that feature-combination and plotted the results.
+
+Then I looked at each feature by itself and compared their R-Squared and Root Mean Squared Error values.
+
+I then refit the linear regression model to the multilingualism feature by itself and plotted the results and repeated that process for the general area (first ZIP digit) and for the combination of multilingualism and the general area combined.
+
+Due to how terribly the general area did by itself, I also combined the Train and Test sets and divided them all by the normalized value associated with the first ZIP digit and looked at the mean and standard deviation for each of the 10 regions.
+
 ## Licence:
 MIT License
 
